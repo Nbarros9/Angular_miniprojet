@@ -16,7 +16,7 @@
 		if(!angular.isUndefined($cookies.get('total'))){
 		  $scope.total = parseFloat($cookies.get('total'));
 		}
-		//Sepetimiz daha önceden tanimliysa onu çekelim
+
 		if (!angular.isUndefined($cookies.get('cart'))) {
 		 		$scope.cart =  $cookies.getObject('cart');
 		}
